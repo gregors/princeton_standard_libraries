@@ -24,9 +24,7 @@ Or install it yourself as:
     n = 50
     Java::StdDraw.set_xscale(0,n)
     Java::StdDraw.set_yscale(0,n*n)
-    Java::StdDraw.set_pen_radius(0.01)
-    Java::StdDraw.point(10, 10)
-    Java::StdDraw.point(10, 10)
+    Java::StdDraw.pen_radius = 0.01
     
     1.upto(n) do |i|
       Java::StdDraw.point(i, i)
